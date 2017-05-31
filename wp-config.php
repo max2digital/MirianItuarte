@@ -21,16 +21,16 @@
 // ** Configurações do MySQL - Você pode pegar estas informações
 // com o serviço de hospedagem ** //
 /** O nome do banco de dados do WordPress */
-define('DB_NAME', 'max2d748_mirian');
+define('DB_NAME', 'wp_mirian');
 
 /** Usuário do banco de dados MySQL */
-define('DB_USER', 'max2d748_mirian');
+define('DB_USER', 'wp_mirian');
 
 /** Senha do banco de dados MySQL */
-define('DB_PASSWORD', 'mirian');
+define('DB_PASSWORD', '@mi2018!');
 
 /** Nome do host do MySQL */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'wp-mirian.mysql.uhserver.com');
 
 /** Charset do banco de dados a ser usado na criação das tabelas. */
 define('DB_CHARSET', 'utf8mb4');

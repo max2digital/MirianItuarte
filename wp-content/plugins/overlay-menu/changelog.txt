@@ -1,0 +1,13 @@
+*** Overlay Menu WordPress Plugin Changelog ***
+
+2016.09.11 - version 1.0.3
+ * Close button added in the overlay window.
+
+2016.08.25 - version 1.0.2
+ * Client based suggestions, improvements, additional settings added.
+
+2016.06.30 - version 1.0.1
+ * Client based suggestions, improvements, additional settings added.
+
+2016.04.10 - version 1.0.0
+ * Initial release

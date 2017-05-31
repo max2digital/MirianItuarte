@@ -1,0 +1,228 @@
+
+
+/* Icon Style */
+
+#iwpmenu_icon .iwpmenu_open_button,
+#iwpmenu_icon .iwpmenu_close_button {
+	display: block;
+	position: absolute;
+	top: 50px;
+	left: 35px;
+	cursor: pointer;
+	z-index: 999992;
+}
+
+#iwpmenu_icon .iwpmenu_close_button {
+	display: none;
+}
+
+#iwpmenu_icon .icon_text_left {
+    font-style: normal;
+    font-family: "Arial";
+    color: #000;
+    font-size: 22px;
+    line-height: 24px;
+    float: left;
+    margin-right: 5px;
+}
+
+#iwpmenu_icon .iwpmenu_close_button .icon_text_left {
+	color: #595959;
+}
+
+#iwpmenu_icon .icon_text_right {
+    font-style: normal;
+    font-family: "Arial";
+    color: #000;
+    font-size: 22px;
+    line-height: 24px;
+    float: right;
+    margin-left: 5px;
+}
+
+#iwpmenu_icon .iwpmenu_close_button .icon_text_right {
+	color: #595959;
+}
+
+.hamburger_layer {
+	fill: #000;
+}
+
+.close_layer {
+	fill: #595959;
+}
+
+#iwpmenu_icon .iwpmenu_button.open {
+}
+/* Bar Style */
+
+#iwpmenu_bar {
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: -210px;
+	width: 210px;
+	height: 100%;
+	background: #45d2dd;
+	opacity: 1;
+	z-index: 999991;
+		border-right: 1px solid #ffffff;
+		}
+
+#iwpmenu_bar.open {
+	
+}
+
+#iwpmenu_bar div {
+	margin: 0px auto 0px;
+	padding-top: 0px;
+		height: 100%;
+		z-index: 9999;
+	overflow: hidden;
+}
+
+#iwpmenu_bar #iwpmenu_social {
+	width: 90%;
+	position: relative;
+	bottom: 50px;
+	left: 0%;
+	color: white;
+	text-align: center;
+		padding-top: 10px;
+}
+
+#iwpmenu_bar #iwpmenu_social a {
+	margin: 0 3px;
+	padding: 0;
+	line-height: 14px;
+	color: #ffffff;
+	font-size: 14px;
+	-webkit-transition: all .25s ease-out;
+	   -moz-transition: all .25s ease-out;
+	    -ms-transition: all .25s ease-out;
+	     -o-transition: all .25s ease-out;
+}
+
+#iwpmenu_bar #iwpmenu_social a:hover {
+	color: #f4f4f4;
+	-webkit-transition: all .25s ease-out;
+	   -moz-transition: all .25s ease-out;
+	    -ms-transition: all .25s ease-out;
+	     -o-transition: all .25s ease-out;
+}
+
+/* Items Style */
+
+/* List General Style */
+
+#iwpmenu_bar div ul {
+		padding: 50px 20px 50px 20px;
+		list-style: none;
+		text-align: left;
+		background: none;
+	height: 100%;
+	overflow-y: scroll;
+	position: relative;
+	background: rgba(0,0,0,.2);
+}
+
+#iwpmenu_bar div ul li a:after {
+	content: "";
+	display: inline-block;
+	width: 10px;
+	margin-left: 5px;
+}
+
+
+/* Items Animation */
+
+
+
+
+#iwpmenu_bar div ul.menu>li {
+	opacity: 0;
+	-webkit-transition: all .5s ease-in;
+	   -moz-transition: all .5s ease-in;
+	    -ms-transition: all .5s ease-in;
+	     -o-transition: all .5s ease-in;
+}
+
+#iwpmenu_bar div ul.menu>li.showme {
+	opacity: 1;
+	-webkit-transition: all .5s ease-out;
+	   -moz-transition: all .5s ease-out;
+	    -ms-transition: all .5s ease-out;
+	     -o-transition: all .5s ease-out;
+}
+
+/* First Level Style */
+
+#iwpmenu_bar div ul.menu li a {
+	color: #ffffff;
+	background: none;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 40px;
+	-webkit-transition: all .25s ease-out;
+	   -moz-transition: all .25s ease-out;
+	    -ms-transition: all .25s ease-out;
+	     -o-transition: all .25s ease-out;
+}
+
+#iwpmenu_bar div ul.menu li a:hover {
+	color: #6ccdd8;
+	-webkit-transition: all .25s ease-out;
+	   -moz-transition: all .25s ease-out;
+	    -ms-transition: all .25s ease-out;
+	     -o-transition: all .25s ease-out;
+}
+
+
+/* Second Level Style */
+
+#iwpmenu_bar div ul.menu ul.sub-menu {
+	background: none;
+	margin: 0;
+	padding: 0;
+	}
+
+
+#iwpmenu_bar div ul.menu ul.sub-menu li a {
+	color: #ffffff;
+	background: none;
+	margin: 0 0;
+	padding: 0;
+	font-size: 14px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+}
+
+#iwpmenu_bar div ul.menu ul.sub-menu li a:hover {
+	color: #6ccdd8;
+}
+
+/* Sub Item Text Indent */
+
+#iwpmenu_bar div ul.menu ul.sub-menu {
+	margin-left: 10px;
+}
+
+#iwpmenu_bar div ul.menu ul.sub-menu ul.sub-menu {
+	margin-left: 10px;
+}
+
+#iwpmenu_bar div ul.menu ul.sub-menu ul.sub-menu ul.sub-menu {
+	margin-left: 10px;
+}
+
+#iwpmenu_bar div ul.menu ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu {
+	margin-left: 10px;
+}
+
+#iwpmenu_bar div ul.menu ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu ul.sub-menu {
+	margin-left: 10px;
+}

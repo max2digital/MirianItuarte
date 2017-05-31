@@ -1,0 +1,301 @@
+# Copyright (C) 2016 Overlay Menu WordPress Plugin
+msgid ""
+msgstr ""
+"Project-Id-Version: Overlay Menu WordPress Plugin 1.0.3\n"
+"Report-Msgid-Bugs-To: http://wp.themeofwp.com/overlaymenu/\n"
+"POT-Creation-Date: 2016-09-11 02:22-0000\n"
+"PO-Revision-Date: 2016-09-11 02:22-0000\n"
+"Last-Translator: \n"
+"Language-Team: ThemeofWP.com <info@themeofwp.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\\\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-overlay-menu-admin-api.php:176
+msgid "Upload an image"
+msgstr ""
+
+#: includes/class-overlay-menu-admin-api.php:176
+msgid "Use image"
+msgstr ""
+
+#: includes/class-overlay-menu-admin-api.php:176
+msgid "Upload new image"
+msgstr ""
+
+#: includes/class-overlay-menu-admin-api.php:177
+msgid "Remove image"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:70
+#: includes/class-overlay-menu-settings.php:390
+msgid "Overlay Menu Settings"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:102
+msgid "Settings"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:114
+msgid "Overlay Content"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:115
+msgid "You can change the default overlay menu settings & styling."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:119
+msgid "Overlay Background Color"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:120
+msgid "Please choose the main overlay background color."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:127
+msgid "Overlay Text Color"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:128
+msgid "Please choose the main overlay text color."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:135
+msgid "Overlay Link Color"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:136
+msgid "Please choose the main overlay link color."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:143
+msgid "Overlay Link Hover Color"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:144
+msgid "Please choose the main overlay link hover color."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:151
+msgid "Overlay Font Size"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:152
+msgid "Choose the font size for the main overlay menu content."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:155
+msgid "16"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:160
+msgid "Overlay Font Weight"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:161
+msgid "Choose the font weight for the main overlay menu content."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:170
+msgid "Menu Icon"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:171
+msgid "Please set the overlay menu icon position & styling."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:176
+msgid "Icon Font"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:177
+msgid ""
+"Enter the icon CSS content. Just copy & paste  CSS content from <a href="
+"\"http://ionicons.com/cheatsheet.html\" target=\"_blank\">http://ionicons."
+"com/</a>"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:180
+msgid "\\f394"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:185
+msgid "Icon Placement"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:186
+msgid "Choose the icon placement."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:194
+msgid "Icon Font Size"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:195
+msgid "Enter the icon font size."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:198
+msgid "18"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:203
+msgid "Icon Font Line Height"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:204
+msgid "Enter the icon font line-height."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:207
+msgid "24"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:212
+msgid "Icon Text"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:213
+msgid "This text will be appear with the icon."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:216
+msgid "ex:MENU"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:221
+msgid "Icon Text Color"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:222
+msgid "Please choose the icon text color."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:229
+msgid "Icon Text Font Size"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:230
+msgid "Enter the icon text font size."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:233
+msgid "12"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:238
+msgid "Icon Text Line Height"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:239
+msgid "Enter the icon text line-height."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:242
+msgid "22"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:247
+msgid "Icon Text Placement"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:248
+msgid "Choose the icon text placement."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:256
+msgid "Icon Top Position"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:257
+msgid "This will be set you icon position to top. Default: 10px"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:260
+#: includes/class-overlay-menu-settings.php:278
+#: includes/class-overlay-menu-settings.php:287
+msgid "ex:10px"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:265
+msgid "Icon Left Position"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:266
+msgid "This will be set you icon position to left. Default: none"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:269
+msgid "ex:20px"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:274
+msgid "Icon Right Position"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:275
+msgid "This will be set you icon position to right. Default: 10px"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:283
+msgid "Icon Bottom Position"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:284
+msgid "This will be set you icon position to bottom. Default: none"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:292
+msgid "Icon Background Color"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:293
+msgid "Please choose the main overlay hamburger icon background color."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:300
+msgid "Icon Color"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:301
+msgid "Please choose the main overlay hamburger icon color."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:308
+msgid "Icon Hover Color"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:309
+msgid "Please choose the main overlay hamburger icon hover color."
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:319
+msgid "Help"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:320
+msgid ""
+"Thanks for purchased Overlay Menu WordPress Plugin. You can access the "
+"documentation <a href=\"http://themeofwp.com/plugins/overlaymenu/doc/"
+"\">here</a>. Feel free to contact us anytime on our <a href=\"http://"
+"codecanyon.net/user/themeofwp/portfolio?ref=themeofwp\">item page</a> or on "
+"our <a href=\"http://themeofwp.com/support/\">support forums</a>"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:442
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class-overlay-menu-settings.php:473
+#: includes/class-overlay-menu-settings.php:482
+#: includes/class-overlay-menu.php:339 includes/class-overlay-menu.php:348
+msgid "Cheatin&#8217; huh?"
+msgstr ""

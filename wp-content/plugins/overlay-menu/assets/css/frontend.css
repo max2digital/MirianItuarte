@@ -1,0 +1,154 @@
+/*--------------------------------------------------
+OVERLAY MENU
+--------------------------------------------------*/
+/* OPEN / CLOSE BTNS */
+.twp-olmenu-btn {
+    display: inline;
+    font-size: 14px;
+    z-index: 9999;
+}
+.twp-olmenu-btn a {
+    display: inline-block;
+    text-decoration: none;
+}
+.twp-btn-open:after {
+	background: transparent !important;
+    color: #333;
+    content: "\f394" !important;
+    font-family: "Ionicons";
+	font-size: 19px;
+    -webkit-transition: all .2s linear 0s;
+    -moz-transition: all .2s linear 0s;
+    -o-transition: all .2s linear 0s;
+    transition-property: all .2s linear 0s;
+	visibility: visible !important;
+	position: inherit !important;
+}
+.twp-btn-open:hover:after {
+    color: #34B484;
+}
+.twp-btn-close:after {
+	background: transparent !important;
+    color: #999;
+    content: "\f2d7" !important;
+    font-family: "Ionicons" !important;
+	font-size: 19px;
+    -webkit-transition: all .2s linear 0s;
+    -moz-transition: all .2s linear 0s;
+    -o-transition: all .2s linear 0s;
+    transition-property: all .2s linear 0s;
+	visibility: visible !important;
+	position: inherit !important;
+}
+.twp-btn-close:hover:after {
+    color: #34B484;
+}
+
+.twp_menu_left {
+    float: left;
+	padding-right: 5px;
+}
+
+.twp_menu_right {
+    float: right;
+	padding-left: 5px;
+}
+
+.twp_menu_bottom, .twp_menu_top {
+    display: block;
+}
+.twp_menu_center {
+    text-align:center;
+}
+.twp_menu_outside {
+    position: absolute;
+    z-index: 99999;
+    display: inline;
+}
+.twp_menu_outside .twp-btn-open::after, .twp_menu_outside .twp-btn-close::after {
+    font-size: 24px;
+    padding: 10px;
+}
+/* OVERLAY */
+.twp-overlay {
+	color: #fff;
+    position: fixed;
+    display: none;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999;
+}
+.twp-overlay .twp-olmenu {
+    margin: 10% auto;
+    width: 80%;
+}
+.twp-overlay .twp-olmenu ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.twp-overlay .twp-olmenu ul li {
+    float: left;
+    padding: 10px 0;
+    width: 25%;
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.twp-overlay .twp-olmenu ul li a {
+    color: #34B484;
+    font-weight: bold;
+    font-size: 18px;
+}
+.twp-overlay .twp-olmenu ul ul {
+    margin-top: 10px;
+}
+.twp-overlay .twp-olmenu ul ul li {
+    position: relative;
+    float: none;
+    margin: 0;
+    width: 100%;
+    border: 0;
+}
+.twp-overlay .twp-olmenu ul ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 14px;
+}
+.twp-overlay .twp-olmenu ul ul li a:hover {
+    color: #34b484;
+}
+.twp-overlay .search-form {
+    margin: 25px auto;
+    text-align: center;
+}
+.twp-overlay .search-form .search-field {
+    width:80%
+}
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .twp-overlay .twp-olmenu ul li {
+        float: none;
+        margin-bottom: 50px;
+        width: 100%;
+        border-bottom: 1px solid #575757;
+    }
+    .twp-overlay .twp-olmenu ul li:last-child {
+        border: 0;
+    }
+    .twp-overlay .twp-olmenu ul ul {
+        margin-top: 20px;
+    }
+    .twp-olmenu-btn {
+        right: 25px;
+    }
+}
